@@ -1,0 +1,83 @@
+body {
+  position: fixed center;
+  background-image: url("./Asset/T-62A_fanart_by_slavus.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bio>div {
+  display: flex;
+  justify-content: left;
+  margin-left: 200px;
+}
+
+.bio>div>img {
+  height: 360px;
+  margin-top: 35px;
+  border-radius: 15%;
+  filter: opacity(75%);
+}
+
+.bio>h1 {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+
+}
+
+.bio>div>p {
+  font-size: 22px;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 621px) {
+  body {
+    position: fixed center;
+    background-image: url("./Asset/Fulcrum.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 25% 75%;
+    overflow: hidden;
+}
+}
+
+@media only screen and (max-width : 1000px){
+  .bio>div {
+    display: flex;
+    justify-content: left;
+    margin-left: 180px;
+  }
+  .bio>div>p {
+    font-size: 22px;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .bio>div {
+    display: block;
+    margin-left: 0px;
+  }
+  .bio>h1 {
+    text-align: center;
+  }
+  .bio>div>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+  }
+  .bio>div>p {
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+  }
+
+}

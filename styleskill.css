@@ -1,0 +1,210 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  position: fixed center;
+  background-image: url("./Asset/IL76.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper{
+  width: 40%;
+  min-width: 570px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 25%;
+}
+.container{
+  width: 100%;
+  padding: 30px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+} 
+.container *{
+  font-family: 'Russo One', sans-serif;
+  color: black;
+  font-weight: 500;
+}
+
+h2{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.details{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar{
+  position: relative;
+  border: 2px solid #000000;
+  border-radius: 20px;
+
+}
+.bar div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+}
+
+.skills:not(:last-child){
+  margin-bottom: 10px;
+}
+
+#html-bar{
+  background-color: #E55638;
+  animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+  100%{
+      width: 70%;
+  }
+}
+
+#css-bar{
+  background-color: #264DE4;
+  animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill{
+  100%{
+      width: 40%;
+  }
+}
+
+#js-bar{
+  background-color: #F7DF1E;
+  animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+  100%{
+      width: 20%;
+  }
+}
+
+#Python-bar{
+  background-color: #376F9E;
+  animation: Python-fill 2s forwards;
+}
+@keyframes Python-fill{
+  100%{
+      width: 10%;
+  }
+} 
+
+@media only screen and (max-width : 600px) {
+  .wrapper {
+    top: 23%;
+    width: 100%;
+    min-width: 120px;
+  }
+}
+
+.wrapper2{
+  width: 40%;
+  min-width: 570px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 70%;
+}
+.container2{
+  width: 100%;
+  padding: 30px 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+} 
+.container2 *{
+  font-family: 'Russo One', sans-serif;
+  color: rgb(99, 98, 139);
+  font-weight: 500;
+}
+
+h2{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.details2{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.bar2{
+  position: relative;
+  border: 2px solid #000000;
+  border-radius: 20px;
+
+}
+.bar2 div{
+  position: relative;
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+}
+
+.skills2:not(:last-child){
+  margin-bottom: 10px;
+}
+
+#ch-bar{
+  background-color: #6B686F;
+  animation: ch-fill 2s forwards;
+}
+@keyframes ch-fill{
+  100%{
+      width: 95%;
+  }
+}
+
+#ps-bar{
+  background-color: #001E36;
+  animation: ps-fill 2s forwards;
+}
+
+@keyframes ps-fill{
+  100%{
+      width: 60%;
+  }
+}
+
+#vid-bar{
+  background-color: #00005B;
+  animation: vid-fill 2s forwards;
+}
+@keyframes vid-fill {
+  100%{
+      width: 50%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .wrapper2 {
+    top: 60%;
+    width: 100%;
+    min-width: 120px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}

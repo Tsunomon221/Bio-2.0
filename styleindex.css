@@ -1,0 +1,71 @@
+body {
+  position: relative;
+  background-image: url("./Asset/XM551_Sheridan_art_by_slavus.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.Slavus>div {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.Slavus>div>img {
+  border-radius: 10%;
+  width: 130px;
+}
+
+.Slavus>h1 {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+
+.Slavus>h2 {
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: large;
+  color: black;
+  margin-top: -15px;
+}
+
+.Slavus>p {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+.Slavus>p>a {
+  color: rgb(23, 139, 206);
+}
+
+@media only screen and (max-width: 600px) {
+  .Slavus>p {
+    color: #000000;
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Slavus>div>img {
+    justify-content: center;
+    width: 90%px;
+    max-width: 60px;
+    margin-top: 5%;
+    border-radius: 10%;
+  }
+}

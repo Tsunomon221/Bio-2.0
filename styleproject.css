@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: fixed center;
+    background-image: url("./Asset/Lightning.jpg");
+    background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    height: 1204px;
+    width: 677px 100%;
+    overflow: hidden;
+}
+.project>h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.project>p {
+    text-align: center;
+}
+
+#credit {
+  position: fixed;
+  bottom: 10px;
+  width:100%;
+}
+
+#credit>a {
+  font-weight: bolder;
+  color: rgb(37, 167, 149);
+}
+
+
+@media only screen and (max-width : 600px) {
+    body {
+        background-position: 80% 100%;
+    }
+    .project>h1 {
+        font-size: x-large;
+        margin-top: 10%;
+    }
+    .project>p {
+        font-size: medium;
+    }
+    #credit {
+      color: white;
+      bottom: 80px;
+    }
+}
